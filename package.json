@@ -1,0 +1,15 @@
+{
+  "name": "doc.mwpapp.ru",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "preview": "vitepress preview src"
+  },
+  "author": "mccrush apps <mccrush2027@gmail.com> (https://mccrush.ru)",
+  "license": "ISC",
+  "description": "MWP - Руководство пользователя",
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  }
+}
