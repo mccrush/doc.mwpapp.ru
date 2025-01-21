@@ -8,11 +8,11 @@ hero:
   tagline: Как работать с приложением
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Руководство
+      link: /doc
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Соглашение
+      link: /eula
 
 features:
   - title: Feature A

@@ -7,21 +7,18 @@ export default defineConfig({
   outDir: '../docs',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
-      { text: 'Руководство', link: '/doc' },
-      { text: 'Соглашение', link: '/eula' }
-    ],
+    // nav: [
+    //   { text: 'Главная', link: '/' },
+    // ],
 
     sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      },
+      // {
+      //   text: 'Examples',
+      //   items: [
+      //     { text: 'Markdown Examples', link: '/markdown-examples' },
+      //     { text: 'Runtime API Examples', link: '/api-examples' }
+      //   ]
+      // },
       {
         text: 'Руководство',
         items: [
