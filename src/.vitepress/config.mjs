@@ -5,6 +5,7 @@ export default defineConfig({
   title: "MWP - Руководство",
   description: "MWP - Руководство пользователя",
   outDir: '../docs',
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     // nav: [
@@ -42,6 +43,9 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/mccrush/doc.mwpapp.ru' }
-    ]
+    ],
+    editLink: {
+      pattern: 'https://github.com/mccrush/doc.mwpapp.ru/edit/dev/src/:path'
+    }
   }
 })
