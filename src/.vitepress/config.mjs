@@ -25,9 +25,9 @@ export default defineConfig({
         items: [
           { text: 'Введение', link: '/doc/vvedenie' },
           { text: 'Верхняя панель навигации', link: '/doc/panel' },
-          { text: 'Pro функции', link: '/doc/pro' },
           { text: 'Работа с проектами', link: '/doc/projects' },
           { text: 'Настройки аккаунта', link: '/doc/accaunt' },
+          { text: 'Pro функции', link: '/doc/pro' },
           { text: 'Сброс и восстановление пароля', link: '/doc/password' }
         ]
       },
