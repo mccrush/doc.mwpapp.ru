@@ -24,6 +24,7 @@ export default defineConfig({
         text: 'Руководство',
         items: [
           { text: 'Введение', link: '/doc/vvedenie' },
+          { text: 'Начало работы', link: '/doc/registration' },
           { text: 'Верхняя панель навигации', link: '/doc/panel' },
           { text: 'Работа с проектами', link: '/doc/projects' },
           { text: 'Настройки аккаунта', link: '/doc/accaunt' },
