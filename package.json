@@ -1,6 +1,6 @@
 {
   "name": "doc.mwpapp.ru",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "scripts": {
     "dev": "vitepress dev src",
     "build": "vitepress build src",
